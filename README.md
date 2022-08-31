@@ -1,5 +1,5 @@
 
-# Techathon 1.0 - A clone of [kuda](https://www.kuda.com) landing page.
+# Techathon 1.0 - A landing page.
 
 This is the recreation of the [kuda](https://www.kuda.com) landing page. This is a part of the Techathon 1.0 project.
 
