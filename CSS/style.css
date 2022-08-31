@@ -1,3 +1,187 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Styling according to the figma design */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-sec {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.download-apps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  grid-area: b;
+  padding: 2em 0 1em 0;
+}
+.app-store {
+  padding: 0 4em;
+}
+.hero-content {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.hero-img {
+  border-radius: 10px;
+}
+
+.image {
+  margin: 2em auto;
+}
+
+.hero-img-desktop,
+.hero-img-mobile {
+  display: none;
+}
+
+.hero-content h1 {
+  margin: 10px 0;
+  color: #40196d;
+  font-size: 60px;
+  font-weight: 700;
+  /* line-height: 60px; */
+}
+
+.hero-content strong {
+  font-size: 45px;
+  /* padding: 0 2em; */
+  font-weight: 600;
+  letter-spacing: 0.07em;
+}
+.hero-content p {
+  font-size: 40px;
+}
+
+/* Tablet or Ipad view */
+
+@media (max-width: 810px) and (min-width:380px) {
+  .hero-sec {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+
+  .hero-img,
+  .hero-img-mobile {
+    display: none;
+  }
+
+  .hero-img-desktop {
+    display: block;
+    border-radius: 10px;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-content h1{
+    font-size: 40px;
+  }
+
+  .hero-content strong{
+    font-size: 30px;
+  }
+
+  .hero-content p{
+    font-size: 20px;
+    text-align: center;
+    padding: 0 3em;
+  }
+
+  .download-apps{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .app-store {
+    padding: 0 2em;
+  }
+
+  .image{
+    margin: 1em auto;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 375px) {
+  .hero-sec {
+    /* grid-template-areas:
+      "a c"
+      "b b"; */
+    text-align: left;
+    width: 100%;
+    margin: 3em 0;
+    padding: 0 1em;
+    height: 80vh;
+  }
+
+  .content{
+    display: flex;
+  }
+
+  .hero-content {
+    width: 50%;
+    margin: 0;
+    padding-right: 1em;
+  }
+  .hero-content h1 {
+    font-size: 18px;
+    font-weight: 700;
+
+    line-height: 27px;
+  }
+
+  .hero-content strong {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.07em;
+  }
+
+  .hero-content p{
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .image {
+    /* width: 100%; */
+  }
+
+  .hero-img,
+  .hero-img-desktop {
+    display: none;
+    width: 894px;
+  }
+
+  .hero-img-mobile {
+    display: block;
+    border-radius: 10px;
+    /* width: 100%; */
+  }
+
+  .download-apps{
+    padding: 0 5em;
+  }
+
+  .app-store{
+
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 *{
