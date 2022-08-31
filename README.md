@@ -23,13 +23,17 @@ This is the recreation of the [kuda](https://www.kuda.com) landing page. This is
 
 Build a landing page for an online bank.
 
+Online banking(also known as internet banking), allows a user to conduct financial transactions via the Internet. 
+Online banking offers customers almost every service traditionally available through a local branch including deposits, transfers, and online bill payments.
+Our project is building a landing page for an online bank(TECHAT)
+
 ### Screenshot
 
 ![](./)
 ![](./)
 
 ### Links
-- Solution URL: [Add solution URL here](https://github.com/fremdie/techathon-group1-team9)
+- Solution URL: [techathon-group1-team9](https://github.com/fremdie/techathon-group1-team9)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## Team's Process 
