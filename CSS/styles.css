@@ -3,6 +3,7 @@
     --green: hsla(148, 61%, 55%, 1);
     --white: hsla(0, 0%, 100%, 1);
     --DarkPurple: hsla(268, 63%, 13%, 1);
+    --black: hsla(0, 0%, 0%, 1);
 }
 * {
     box-sizing: border-box;
@@ -14,7 +15,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
-/* Styling according to the figma design */
+/* Section 2: Styling according to the figma design */
 
 .hero-sec {
   width: 90%;
@@ -187,6 +188,107 @@ body {
   }
 }
 
+/* SECTION 6 CSS */
+
+.six {
+    margin: 10px 0;
+    border-top: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
+    width: auto;
+}
+ .six h1{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--purple);
+    line-height: 20px;
+    letter-spacing: 0.07em;
+}
+
+.six-inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+
+.six-inner h2{
+    color: var(--purple);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.07em;
+}
+
+.six-inner h3{
+    font-size: 15px;
+    letter-spacing: 0.07em;
+    color: var(--black);
+    text-align: center;
+    line-height: 38px;
+}
+.six .other{
+    width: 32%;
+}
+.six .black{
+    width: 32%;
+}
+.six .bank{
+    width: 32%;
+}
+
+.six-inner .black{
+    letter-spacing: 0.07em;
+    background-color: var(--black);
+    color: var(--white);
+    margin: 20px auto;
+    padding: 5px 30px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .six-inner h2{
+        font-size: 29px;
+        color: var(--purple);
+    }
+    .six-inner h3{
+        font-size: 20px;
+        line-height: 20px;
+        display: block;
+        text-align: left;
+    }
+    .bank h3{
+        display: block;
+        text-align: right;
+    }
+    .six-inner .black{
+        background-color: var(--white);
+        color: var(--purple);
+        font-size: 20px;
+        line-height: 16px;
+        text-align: center;
+    }    
+}
+
+@media only screen and (max-width: 600px) {
+    .six-inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .other{
+        padding: 10px 120px;
+    }
+    .other h2{
+        font-size: 23px;
+    }
+    .other h3{
+        font-size: 20px;
+    }
+}
+
+/* section 7 */
 /* media query for mobile screen */
 @media screen and (max-width:600px) {
 
@@ -365,6 +467,7 @@ div img{
 
 }
 
+/* footer */
 #footer {
    /*  border: 1px solid; */
     background-color: var(--purple);
