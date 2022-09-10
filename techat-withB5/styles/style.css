@@ -44,3 +44,8 @@ a {
     color: white;
     background-color: hsl(268deg 63% 13%);
 }
+
+#navbar-section {
+    background-color: rgb(64, 25, 109, 0.1);
+    color: #40196d;
+}
