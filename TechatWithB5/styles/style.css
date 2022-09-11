@@ -17,6 +17,10 @@ body {
     font-size: 40px;
 }
 
+#navbar-section a {
+    color: #40196d;
+}
+
 #get-started .appstore-imgs {
     max-width: 50%;
 }
