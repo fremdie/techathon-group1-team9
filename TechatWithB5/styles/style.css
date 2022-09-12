@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+#hero h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #40196d;
+}
+
+#hero strong {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#top-hero-carousel h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#hero p {
+    font-size: 40px;
+}
+
+#navbar-section a {
+    color: #40196d;
+}
+
+#get-started .appstore-imgs {
+    max-width: 50%;
+}
+
+#top-footer {
+    background-color: #40196d;
+    color: white;
+}
+
+#footer-logo img {
+    max-width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#top-footer button {
+    background-color: hsl(268deg 63% 13%);
+    color: white;
+}
+
+#bottom-footer {
+    color: white;
+    background-color: hsl(268deg 63% 13%);
+}
+
+#navbar-section {
+    background-color: rgb(64, 25, 109, 0.1);
+    color: #40196d;
+}
