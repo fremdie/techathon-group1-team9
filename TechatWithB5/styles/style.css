@@ -2,6 +2,12 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f5f5f5;
 }
+
+#navbar-section {
+    background-color: rgb(64, 25, 109, 0.1);
+    color: #40196d;
+}
+
 #hero h1 {
     font-size: 60px;
     font-weight: 700;
@@ -54,7 +60,12 @@ a {
     background-color: hsl(268deg 63% 13%);
 }
 
-#navbar-section {
-    background-color: rgb(64, 25, 109, 0.1);
-    color: #40196d;
+#illustrations h3 {
+    color: #581c9c;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#illustrations p {
+    font-weight: 300;
 }
