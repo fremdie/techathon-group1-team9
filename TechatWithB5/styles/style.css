@@ -62,10 +62,16 @@ a {
 
 #illustrations h3 {
     color: #581c9c;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
 }
 
 #illustrations p {
-    font-weight: 300;
+    font-weight: 400;
+}
+
+#comparism-table h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #581c9c;
 }
